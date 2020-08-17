@@ -1,3 +1,5 @@
+create database php_com_pdo;
+
 create table tb_status(
 	id int not null primary key auto_increment,
     status varchar(25) not null

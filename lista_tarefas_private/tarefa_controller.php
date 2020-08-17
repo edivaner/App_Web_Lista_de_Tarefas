@@ -3,9 +3,9 @@
 // na pagina tarefa_controller.php do arquivo publico há um require chamando esta pagina. É como se esta pagina estivesse sendo executada na pasta publica.
 
 
-	require "../../app_lista_tarefas/tarefa.model.php";
-	require "../../app_lista_tarefas/tarefa.service.php";
-	require "../../app_lista_tarefas/conexao.php";
+	require "../lista_tarefas_private/tarefa.model.php";
+	require "../lista_tarefas_private/tarefa.service.php";
+	require "../lista_tarefas_private/conexao.php";
 
 
 	$acao = isset($_GET['acao']) ? $_GET['acao'] : $acao;

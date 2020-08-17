@@ -18,8 +18,7 @@
 
 		<script>
 			function editar(id, txt_tarefa){
-				alert(txt_tarefa);
-
+			
 				//Criar um forma de edição
 				let form = document.createElement('form');
 				form.action = 'index.php?pag=index&acao=atualizar';
